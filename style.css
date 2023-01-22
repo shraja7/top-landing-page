@@ -35,6 +35,9 @@ ul{
     display: flex;
     background-color: #1F2937;
     gap: 2em;
+    padding-bottom: 5%;
+    
+    
     
     
   }
@@ -64,4 +67,100 @@ ul{
     border: none;
     color: white;
     padding: 5px 10px;
+}
+/* random information section */
+.images{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+   
+   
+}
+
+.images p{
+  max-width: 200px;
+}
+
+.images img{
+  
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+.info{
+    text-align: center;
+}
+
+/* quote section */
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  padding: 5%;
+  flex-shrink: 0;
+  
+  
+}
+
+.quote p{
+  font-size: 20px;
+  font-style: italic;
+  color: #1F2937;
+ align-self: flex-end;
+}
+
+/* cta section styling */
+.cta{
+  display: flex;
+
+  background-color: white;
+  flex-direction: column;
+  padding: 10%;
+  
+
+
+
+  color: white;
+}
+
+.cta .inner{
+  display: flex;
+  background-color: #3882F6;
+  border: 1px solid #3882F6;
+  border-radius: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  align-items: center;
+  gap: 15%;
+
+
+}
+
+.cta .inner button{
+  color: white;
+  background-color: #3882F6;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 3px 15px;
+}
+
+.cta .inner h4{
+  margin-bottom: -1em;
+}
+
+
+
+/* footer styling */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  padding: .5em;
+  color: white;
 }
